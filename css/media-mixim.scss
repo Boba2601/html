@@ -1,0 +1,21 @@
+/*
+ * @param $media options:
+ * - xs : 360px
+ * - sm : 767px
+ * - md : 1023px
+ * - lg : 1360px
+ */
+
+ .foo {
+	@include media(xs) {
+	  width: 50%;
+	}
+  }
+  
+  // or
+  
+  @include media(xs) {
+	.foo {
+	  width: 50%;
+	}
+  }
